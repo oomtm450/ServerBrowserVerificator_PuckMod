@@ -1,0 +1,12 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Template/obj
+/CurvedStick/obj/Debug/net4.8
+/CurvedStick/bin/Release/net4.8
+/CurvedStick/obj/Release/net4.8
+/CurvedStick/obj
+/ServerBrowserVerificator/bin/Release/net4.8
+/ServerBrowserVerificator/obj
