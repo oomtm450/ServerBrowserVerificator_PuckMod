@@ -14,7 +14,7 @@ namespace oomtm450PuckMod_ServerBrowserVerificator {
         /// <summary>
         /// Const string, version of the mod.
         /// </summary>
-        private const string MOD_VERSION = "1.0.2";
+        private const string MOD_VERSION = "1.0.3";
         #endregion
 
         #region Fields
@@ -37,8 +37,6 @@ namespace oomtm450PuckMod_ServerBrowserVerificator {
             [HarmonyPrefix]
             public static bool Prefix(ref List<ServerBrowserServer> serverBrowserServers) {
                 try {
-                    Logging.Log("UIServerBrowser_UpdateServers_Patch", ClientConfig);
-
                     List<(ServerBrowserServer Server, string Keyword)> serversToRemove = new List<(ServerBrowserServer, string)>();
                     foreach (ServerBrowserServer server in serverBrowserServers) {
                         foreach (string key in ClientConfig.VerificationDictionary.Keys.Where(key => server.name.Contains(key.ToLower()))) {
