@@ -14,7 +14,7 @@ namespace oomtm450PuckMod_ServerBrowserVerificator {
         /// <summary>
         /// Const string, version of the mod.
         /// </summary>
-        private const string MOD_VERSION = "1.0.3";
+        private const string MOD_VERSION = "1.0.4";
         #endregion
 
         #region Fields
