@@ -25,8 +25,7 @@ namespace oomtm450PuckMod_ServerBrowserVerificator.Configs {
         /// Dictionary of string and List of string, keyword with the list of ip addresses to verify.
         /// </summary>
         public Dictionary<string, List<string>> VerificationDictionary { get; set; } = new Dictionary<string, List<string>> {
-            { "ponce", new List<string> { "45.76.63.54", "104.238.165.56", "144.202.86.178", "149.28.252.129", "140.82.3.183",
-                "70.34.205.198", "80.240.17.115", "155.138.234.217" } },
+            { "ponce", new List<string> { "155.138.234.217", "144.202.54.222", "144.202.86.178", "149.28.252.129", "45.77.100.45", "70.34.205.198", "80.240.17.115" } },
         };
         #endregion
 
