@@ -27,8 +27,7 @@ namespace oomtm450PuckMod_ServerBrowserVerificator.Configs {
         public Dictionary<string, List<string>> VerificationDictionary { get; set; } = new Dictionary<string, List<string>> {
             { "ponce",
                 new List<string> {
-                    "155.138.234.217", "144.202.54.222", "144.202.86.178", "149.28.252.129", "45.77.100.45", "70.34.205.198", "80.240.17.115", "45.76.19.168",
-                    "45.76.62.18", "45.76.24.9",
+                    "144.202.86.178", "149.28.252.129", "45.77.100.45", "70.34.205.198", "80.240.17.115", "45.76.19.168", "45.76.62.18", "45.76.24.9", "96.30.199.70",
                 }
             },
         };
